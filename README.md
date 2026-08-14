@@ -105,6 +105,9 @@ TRIUNE-Net achieves superior tumor segmentation performance while maintaining th
   <img width="700" alt="msd_table" src="assets/msd_table.png">
 </p>
 
+<p align="center">
+  <img width="700" alt="qualitative" src="assets/qualitative.png">
+</p>
 
 ## 🚀 Getting Started
 
