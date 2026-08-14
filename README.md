@@ -100,19 +100,11 @@ Our experiments were conducted on four benchmark datasets. The pre-processed dat
 
 
 ## 📈 Results
-LHU-Net demonstrated exceptional performance across these datasets, significantly outperforming existing state-of-the-art models in terms of efficiency and accuracy.
+TRIUNE-Net achieves superior tumor segmentation performance while maintaining the smallest model footprint. As shown in Figure 2, it reaches the highest tumor Dice score (53.11% on MSD Pancreas) with only 5.86 million parameters and 21.7 GFLOPs, outperforming heavier models like MedNeXt and Swin-UNETR across all key metrics.
 <p align="center">
-  <img width="700" alt="synapse_table" src="assets/synapse_table.png">
+  <img width="700" alt="msd_table" src="assets/msd_table.png">
 </p>
 
-<p align="center">
-  <img width="700" alt="ACDC_table" src="assets/others_table.png">
-</p>
-<p align="center">
-  <img width="700" alt="ACDC_table" src="assets/vis.png">
-</p>
-<!-- ![synapse_table](assets/synapse_table.png)
-![ACDC_table](assets/acdc_table.png) -->
 
 ## 🚀 Getting Started
 
