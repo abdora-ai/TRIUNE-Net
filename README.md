@@ -68,7 +68,7 @@ false alarms in clinically realistic conditions. Code will be made publicly avai
 - **Three complementary innovations in the Contextual Block**: The Multi-Scale Gated Aggregator (MSGA) handles extreme scale disparity, deformable large-kernel attention (D-LKA) adapts to irregular tumor shapes, and information-preserving downsampling (IPD) retains spatial details that max pooling would discard.
 - **Superior performance on both real and synthetic datasets**: TRIUNE-Net achieves state-of-the-art tumor Dice (53.11% on MSD Pancreas) and improves sensitivity (+4.9% on small tumors) without sacrificing precision, making it practical for opportunistic screening in resource-constrained settings.
 
-<p align="center"> <img width="900" alt="Tumor Dice vs computational cost" src="assets/dice_vs_performance.jpg"> </p>
+<p align="center"> <img width="900" alt="Tumor Dice vs computational cost" src="assets/dice_vs_performance.png"> </p>
 
 ---
 
