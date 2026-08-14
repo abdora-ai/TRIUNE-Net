@@ -1,11 +1,11 @@
 
-# LHU-Net: A Lean Hybrid U-Net for Cost-Efficient High-Performance Volumetric Medical Image Segmentation
+# TRIUNE-Net: Harmonizing Scale, Shape, and Efficiency in Pancreatic Tumor Segmentation
 
 [![arXiv](https://img.shields.io/badge/arXiv-2404.05102-b31b1b.svg)](https://arxiv.org/abs/2404.05102)
 
-This repository contains the official implementation of **LHU-Net**. Our paper, *"LHU-Net: A Lean Hybrid U-Net for Cost-Efficient High-Performance Volumetric Medical Image Segmentation,"* addresses the growing complexity in medical image segmentation models, focusing on balancing computational efficiency with segmentation accuracy.
+This repository contains the official implementation of **TRIUNE-Net**. Our paper, *"TRIUNE-Net: Harmonizing Scale, Shape, and Efficiency in Pancreatic Tumor Segmentation,"* addresses the growing complexity in medical image segmentation models, focusing on balancing computational efficiency with segmentation accuracy.
 
-> Yousef Sadegheih, Afshin Bozorgpour, Pratibha Kumari, Reza Azad, and Dorit Merhof
+> Amir hossein saleknia, Alireza Kheyrkhah, Sanaz Karimijafarbigloo, Sina Houshmand, Reza Azad, Ulas Bagci, Dorit Merhof, Alaa Sulaiman 
 
 ---
 
@@ -31,7 +31,25 @@ This repository contains the official implementation of **LHU-Net**. Our paper, 
 
 ## 📝 Abstract
 
-The rise of Transformer architectures has advanced medical image segmentation, leading to hybrid models that combine Convolutional Neural Networks (CNNs) and Transformers. However, these models often suffer from excessive complexity and fail to effectively integrate spatial and channel features, crucial for precise segmentation. To address this, we propose LHU-Net, a Lean Hybrid U-Net for volumetric medical image segmentation. LHU-Net prioritizes spatial feature extraction before refining channel features, optimizing both efficiency and accuracy. Evaluated on four benchmark datasets (Synapse, Left Atrial, BraTS-Decathlon, and Lung-Decathlon), LHU-Net consistently outperforms existing models across diverse modalities (CT/MRI) and output configurations. It achieves state-of-the-art Dice scores while using four times fewer parameters and 20% fewer FLOPs than competing models, without the need for pre-training, additional data, or model ensembles. With an average of 11 million parameters, LHU-Net sets a new benchmark for computational efficiency and segmentation accuracy. 
+Pancreatic tumor segmentation in 3D CT volumes is challenged by extreme scale 
+variability across both the pancreas and tumor, and highly irregular tumor 
+morphology. While recent advances have pushed segmentation performance, existing 
+methods do not explicitly address these challenges and come at the cost of 
+excessive computational complexity, limiting their practicality in 
+resource-constrained clinical environments. We propose TRIUNE-Net, a lightweight 
+unified architecture that harmonizes scale, 
+shape, and efficiency through three synergistic innovations. A multi-scale 
+context aggregation module with stage-adaptive dilated convolutions enables 
+the model to reason across the broad range of anatomical scales present in 
+both organs. A serial linear-deformable attention mechanism combines large 
+effective receptive fields with shape-adaptive deformable convolutions to 
+capture irregular, non-convex tumor morphologies. Finally, an information-preserving 
+downsampling module replaces conventional max pooling entirely, retaining all 
+spatial information while adding negligible parameters, preventing small tumors 
+from being discarded before they can be recognized. On both the MSD Pancreas and NVD Pancreas datasets, TRIUNE-Net achieves state-of-the-art results with only 5.86\,M parameters and no external pre-training, outperforming all baselines across all key tumor metrics. Specifically, it surpasses the next-best model by 0.45\% in tumor Dice, 
+6.0 points in F1 score, 6.6 points in sensitivity, and 3.4 points in precision,
+simultaneously reflecting its ability to suppress both missed tumors and 
+false alarms in clinically realistic conditions. Code will be made publicly available.
 
 ---
 
