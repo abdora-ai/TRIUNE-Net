@@ -168,6 +168,3 @@ If you find this work useful for your research, please cite:
 }
 ```
 
-## [Touchstone Benchmark](https://github.com/MrGiovanni/Touchstone?tab=readme-ov-file#touchstone-10-model)
-
-For the implementation and weights for the touchstone benchmark, please visit [here](AbdomenAtlas1.0/README.md).
