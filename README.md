@@ -24,7 +24,6 @@ This repository contains the official implementation of **TRIUNE-Net**. Our pape
     - [Notes](#%EF%B8%8F-notes)
 8. [Acknowledgments](#-acknowledgments)
 9. [Citation](#books-citation)
-10. [Touchstone Benchmark](#touchstone-benchmark)
 
 ---
 
