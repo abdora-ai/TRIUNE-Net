@@ -76,10 +76,10 @@ false alarms in clinically realistic conditions. Code will be made publicly avai
 
 ## :gear: Model Architecture
 
-LHU-Net leverages a hierarchical U-Net encoder-decoder structure optimized for 3D medical image segmentation. The architecture integrates convolutional-based blocks with hybrid attention mechanisms, capturing both local features and non-local dependencies effectively.
+TRIUNE-Net is a lightweight 3D segmentation network that uses a special Contextual Block to jointly handle extreme size differences, irregular tumor shapes, and loss of fine details, all while being faster and more accurate than larger models.
 
 <p align="center">
-  <img width="900" alt="LHU-Net Architecture" src="assets/network_architecture.jpg">
+  <img width="900" alt="TRIUNE-Net Architecture" src="assets/network_architecture.jpg">
 </p>
 
 *For a detailed explanation of each component, please refer to our paper.*
