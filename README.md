@@ -5,8 +5,6 @@ This repository contains the official implementation of **TRIUNE-Net**. Our pape
 
 > Amir hossein saleknia, Alireza Kheyrkhah, Sanaz Karimijafarbigloo, Sina Houshmand, Reza Azad, Ulas Bagci, Dorit Merhof, Alaa Sulaiman 
 
----
-
 ## 📑 Table of Contents
 
 1. [Abstract](#-abstract)
@@ -19,8 +17,6 @@ This repository contains the official implementation of **TRIUNE-Net**. Our pape
     - [Training & Inference](#%EF%B8%8F-training--inference)
     - [Notes](#%EF%B8%8F-notes)
 6. [Acknowledgments](#-acknowledgments)
----
-
 
 ## 📝 Abstract
 
@@ -52,8 +48,6 @@ false alarms in clinically realistic conditions. Code will be made publicly avai
 
 <p align="center"> <img width="600" alt="Tumor Dice vs computational cost" src="assets/dice_vs_performance.png"> </p>
 
----
-
 ## :gear: Model Architecture
 
 TRIUNE-Net is a lightweight 3D segmentation network that uses a special Contextual Block to jointly handle extreme size differences, irregular tumor shapes, and loss of fine details, all while being faster and more accurate than larger models.
@@ -63,8 +57,6 @@ TRIUNE-Net is a lightweight 3D segmentation network that uses a special Contextu
 </p>
 
 *For a detailed explanation of each component, please refer to our paper.*
-
----
 
 ### Notes:
 - The dataset splits used in our experiments can be found in the `splits_final.json` file within each pre-processed dataset folder.
