@@ -61,7 +61,6 @@ TRIUNE-Net is a lightweight 3D segmentation network that uses a special Contextu
 ### Notes:
 - The dataset splits used in our experiments can be found in the `splits_final.json` file within each pre-processed dataset folder.
 
-
 ## 📈 Results
 TRIUNE-Net achieves superior tumor segmentation performance while maintaining the smallest model footprint. As shown in Figure 2, it reaches the highest tumor Dice score (53.11% on MSD Pancreas) with only 5.86 million parameters and 21.7 GFLOPs, outperforming heavier models like MedNeXt and Swin-UNETR across all key metrics.
 <p align="center">
