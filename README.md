@@ -118,5 +118,3 @@ This repository is built based on [nnFormer](https://github.com/282857341/nnForm
 
   organization={Springer}
 }
-```
-
