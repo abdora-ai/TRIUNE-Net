@@ -19,8 +19,6 @@ This repository contains the official implementation of **TRIUNE-Net**. Our pape
     - [Training & Inference](#%EF%B8%8F-training--inference)
     - [Notes](#%EF%B8%8F-notes)
 6. [Acknowledgments](#-acknowledgments)
-7. [Citation](#books-citation)
-
 ---
 
 
@@ -137,17 +135,6 @@ For training and inference, you can use the provided shell scripts located in th
 
 This repository is built based on [nnFormer](https://github.com/282857341/nnFormer), [nnU-Net](https://github.com/MIC-DKFZ/nnUNet), [UNETR++](https://github.com/Amshaker/unetr_plus_plus), [MCF](https://github.com/WYC-321/MCF), [D3D](https://github.com/XinyiYing/D3Dnet/tree/master), [D-LKA](https://github.com/xmindflow/deformableLKA), [LHU-Net](https://github.com/xmindflow/LHUNet). We thank the authors for their code repositories.
 
-## :books: Citation
-
-If you find this work useful for your research, please cite:
-
-```bibtex
-@inproceedings{sadegheih2025lhu,
-  title={LHU-Net: A lean hybrid u-net for cost-efficient, high-performance volumetric segmentation},
-  author={Sadegheih, Yousef and Bozorgpour, Afshin and Kumari, Pratibha and Azad, Reza and Merhof, Dorit},
-  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
-  pages={326--336},
-  year={2025},
   organization={Springer}
 }
 ```
