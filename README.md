@@ -48,17 +48,6 @@ from being discarded before they can be recognized. On both the MSD Pancreas and
 simultaneously reflecting its ability to suppress both missed tumors and 
 false alarms in clinically realistic conditions. Code will be made publicly available.
 
----
-
-## :bell: Updates
-- :muscle: **[Touchstone Benchmark](https://github.com/MrGiovanni/Touchstone?tab=readme-ov-file#touchstone-10-model)** code and weight release - *January 30, 2026*
-- :punch: **Complete rewrite of the source code** for full compatibility with the nnUNetV2 framework – *July 29, 2025*
-- 🥳: **Paper Accepted in MICCAI 2025** – *June 17, 2025*
-- :fire: Participation in **[Touchstone Benchmark](https://github.com/MrGiovanni/Touchstone?tab=readme-ov-file#touchstone-10-model)** – *July 16, 2024*
-- :sunglasses: **First release** – *April 5, 2024*
-
----
-
 ## :zap: Key Contributions
 
 - **A lightweight and efficient architecture**: TRIUNE-Net has only 5.86 million parameters and 21.7 GFLOPs, processing a full CT volume in 1.7 seconds while outperforming much larger models.
