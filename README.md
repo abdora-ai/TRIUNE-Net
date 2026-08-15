@@ -10,18 +10,16 @@ This repository contains the official implementation of **TRIUNE-Net**. Our pape
 ## 📑 Table of Contents
 
 1. [Abstract](#-abstract)
-2. [Updates](#bell-updates)
-3. [Key Contributions](#zap-key-contributions)
-4. [Model Architecture](#gear-model-architecture)
-5. [Datasets, Pre-trained Weights, and Visualizations](#%EF%B8%8F-datasets-pre-trained-weights-and-visualizations)
-6. [Results](#-results)
-7. [Getting Started](#-getting-started)
+2. [Key Contributions](#zap-key-contributions)
+3. [Model Architecture](#gear-model-architecture)
+4. [Results](#-results)
+5. [Getting Started](#-getting-started)
     - [Requirements](#%EF%B8%8F-requirements)
     - [Installation](#-installation)
     - [Training & Inference](#%EF%B8%8F-training--inference)
     - [Notes](#%EF%B8%8F-notes)
-8. [Acknowledgments](#-acknowledgments)
-9. [Citation](#books-citation)
+6. [Acknowledgments](#-acknowledgments)
+7. [Citation](#books-citation)
 
 ---
 
