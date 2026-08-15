@@ -66,17 +66,6 @@ TRIUNE-Net is a lightweight 3D segmentation network that uses a special Contextu
 
 ---
 
-## 🗄️ Datasets, Pre-trained weights, and Visualizations
-
-Our experiments were conducted on four benchmark datasets. The pre-processed datasets and pre-trained weights, including the predicted outputs on the test splits, can be downloaded from the table below.
-
-| **Dataset** | **Visualization** | **Pre-Trained Weights** | **Pre-Processed Dataset** |
-|-------------|------------------|-------------------------|---------------------------|
-   [BRaTS-Decathlon](http://medicaldecathlon.com/)  | [[Download Visualization](https://myfiles.uni-regensburg.de/filr/public-link/file-download/044787a097ab1daf0197ac866ffd03d7/137194/549681019582853268/brats_vis.zip)]| [[Download Weights](https://myfiles.uni-regensburg.de/filr/public-link/file-download/0447879f97ab1d8f01985540b3697f9d/139872/8834379024962208660/Dataset703_BraTSDecathelon.zip)] | [[Download Dataset](https://myfiles.uni-regensburg.de/filr/public-link/file-preview/0447879f97ab1d8f019850ec84127740/139843/8988911091315547724)] 
-   [Left Atrial (LA)](https://www.cardiacatlas.org/atriaseg2018-challenge/)     | [[Download Visualization](https://myfiles.uni-regensburg.de/filr/public-link/file-download/044787a097ab1daf0197ac8670a303db/137195/7579435805778831684/LA_vis.zip)]| [[Download Weights (fold 0)](https://myfiles.uni-regensburg.de/filr/public-link/file-download/0447879f97ab1d8f01985541075b7fa1/139874/5942682231994731673/Dataset708_LAPreProcessed.zip)] | [[Download Dataset](https://myfiles.uni-regensburg.de/filr/public-link/file-download/044787a097ab1daf0197ac87fec103ec/137188/-853117849856220300/LA_Dataset.zip.001)]
-   [Lung-Decathlon](http://medicaldecathlon.com/)      | [[Download Visualization](https://myfiles.uni-regensburg.de/filr/public-link/file-download/044787a097ab1daf0197acb94b250685/137196/-3165844358820756419/Lung.zip)]| [[Download Weights](https://myfiles.uni-regensburg.de/filr/public-link/file-download/0447879f97ab1d8f019855416f8a7fa9/139875/-8720012220474206476/Dataset709_Lung.zip)] | [[Download Dataset](https://myfiles.uni-regensburg.de/filr/public-link/file-preview/0447879f97ab1d8f019850edc0897746/139844/-7063925517113994682)]
-   [Synapse](https://www.synapse.org/Synapse:syn3193805/wiki/89480)  | [[Download Visualization](https://myfiles.uni-regensburg.de/filr/public-link/file-download/044787a097ab1daf0197ac8671ed03e3/137197/1243835443655735172/Synapse_vis.zip)]| [[Download Weights](https://myfiles.uni-regensburg.de/filr/public-link/file-download/0447879f97ab1d8f01985541a2e47fad/139876/-3482765111808873404/Dataset700_Synapse.zip)] | [[Download Dataset](https://myfiles.uni-regensburg.de/filr/public-link/file-download/044787a097ab1daf0197acacd3340529/137193/35684058196016065/Synapse_Dataset.zip.001)]
-
 ### Notes:
 - The dataset splits used in our experiments can be found in the `splits_final.json` file within each pre-processed dataset folder.
 
